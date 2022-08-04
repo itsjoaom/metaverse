@@ -1,0 +1,239 @@
+@charset "UF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --Black: #13161E;
+    --Grey01: #7D7F87;
+    --Grey02: #E5E5E4;
+    --Grey03: #F7F5F8;
+    --Blue: #131A47;
+    --Blue02: #A8C0E9;
+    --Blue03: #B7E5EC;
+    --Green: #4A9875;
+    --Green02: #E7F7F4;
+    --White: #FFFFFF;
+
+    --font-padrão: 'Inter', helvetica, Sans-serif;
+
+}
+
+body{
+    background-color: white;
+    background-image: url(imagens/Mask\ group.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1284px;
+    margin: auto;
+    padding: 24px;
+    align-items: center;
+}
+
+section.primeira{
+    max-width: 1066px;
+    margin: auto;
+    padding: 24px;
+    margin-bottom: 160px;
+}
+
+h1{
+    margin-top: 80px;
+    margin-bottom: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: -0.04em;
+    color: var(--Black);
+    max-width: 629px;
+}
+
+.primeiro_paragrafo{
+    max-width: 629px;
+    margin-bottom: 40px;
+    color: var(--Grey01);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.botões_header{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+li > a.link_navbar{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--Black);
+}
+
+.button_grey{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+    background-color: var(--White);
+    color: var(--Black);
+    padding: 12px 18px;
+    border: 1px solid var(--Grey02);
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.button_grey_padrao{
+    margin-right: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+    background-color: var(--White);
+    color: var(--Black);
+    padding: 16px 24px;
+    border: 1px solid var(--Grey02);
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.button_blue{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+    background-color: var(--Blue);
+    color: var(--White);
+    padding: 16px 24px;
+    border: 1px solid var(--Grey02);
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.content_e_imagens{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.what_is_metaverse{
+    max-width: 1066px;
+    margin: auto;
+    padding: 24px;
+    margin-bottom: 160px;
+}
+
+div.section_title{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.container_sections{
+    margin-right: 8px;
+}
+
+h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h2{
+    max-width: 519px;
+    margin-bottom: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.paragrafo_normal{
+    color: var(--Grey01);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 521px;
+    margin-bottom: 40px;
+}
+
+span.cor_no_texto{
+    color: var(--Grey01);
+}
+
+footer{
+    max-width: 1284px;
+    margin: auto;
+    margin-bottom: 64px;
+    padding: 24px;
+}
+
+.footer{
+    background-image: linear-gradient(to left, var(--Blue02), var(--White));
+    background-attachment: fixed;
+    padding: 80px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.footer_title{
+    margin-bottom: 16px;
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: var(--Black);
+}
+
+td > a{
+    text-decoration: none;
+    color: var(--Grey01);
+}
+
+.link_footer{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    color: var(--Grey01);
+    padding-right: 80px;
+}
