@@ -15,6 +15,7 @@
     --Blue: #131A47;
     --Blue02: #A8C0E9;
     --Blue03: #B7E5EC;
+    --Blue04: #2A3269;
     --Green: #4A9875;
     --Green02: #E7F7F4;
     --White: #FFFFFF;
@@ -59,6 +60,22 @@ h1{
     letter-spacing: -0.04em;
     color: var(--Black);
     max-width: 629px;
+}
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size: 56px;
+        line-height: 56px;
+    }
+
+    p.primeiro_paragrafo {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
 }
 
 .primeiro_paragrafo{
@@ -107,6 +124,10 @@ li > a.link_navbar{
     width: fit-content;
 }
 
+.button_grey:hover{
+    background-color: var(--Grey03);
+}
+
 .button_grey_padrao{
     margin-right: 16px;
     font-family: 'Inter';
@@ -123,6 +144,10 @@ li > a.link_navbar{
     width: fit-content;
 }
 
+.button_grey_padrao:hover{
+    background-color: var(--Grey03);
+}
+
 .button_blue{
     font-family: 'Inter';
     font-style: normal;
@@ -136,6 +161,10 @@ li > a.link_navbar{
     border: 1px solid var(--Grey02);
     border-radius: 10px;
     width: fit-content;
+}
+
+.button_blue:hover{
+    background-color: var(--Blue04);
 }
 
 .content_e_imagens{
@@ -161,14 +190,6 @@ div.section_title{
     margin-right: 8px;
 }
 
-h3{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-}
-
 h2{
     max-width: 519px;
     margin-bottom: 40px;
@@ -177,6 +198,14 @@ h2{
     font-weight: 600;
     font-size: 40px;
     line-height: 48px;
+}
+
+h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .paragrafo_normal{
